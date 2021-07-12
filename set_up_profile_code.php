@@ -9,7 +9,7 @@
         $e_title = $_POST['e_title'];
         $e_type = $_POST['e_type'];
         $e_location = $_POST['e_location'];
-        $e_img = $_FILES["e_image"]["name"];
+        echo $e_img = $_FILES["e_image"]["name"];
         $e_img_size =  $_FILES["e_image"]["size"];
         $e_img_tmp_name =  $_FILES["e_image"]["tmp_name"];
         $e_nationality = $_POST['e_nationality'];
@@ -28,7 +28,7 @@
         Functions::data_validation($e_title, 'e_title', 'text', '3', '35');
         Functions::data_validation($e_type, 'e_type', 'select', '2', '35');
         Functions::data_validation($e_location, 'e_location', 'select', '2', '35');
-        Functions::image_validation($e_img, 'e_image', $e_img_size, $e_img_tmp_name);
+        Functions::image_validation($e_img, 'e_image', $e_img_size, $e_img_tmp_name,'employe');
         Functions::data_validation($e_nationality, 'e_nationality', 'text', '3', '35');
         Functions::data_validation($e_age, 'e_age', 'number', '2', '3');
         Functions::data_validation($e_descripton, 'e_description', 'text', '150', '500');
@@ -63,7 +63,7 @@
         Functions::data_validation($j_title, 'j_title', 'text', '3', '25');
         Functions::data_validation($j_interest, 'j_interest', 'select', '3', '25');
         Functions::data_validation($j_location, 'j_location', 'select', '5', '35');
-        Functions::image_validation($j_img, 'j_image', $j_img_size, $j_img_tmp_name);
+        Functions::image_validation($j_img, 'j_image', $j_img_size, $j_img_tmp_name,'job_seeker');
         Functions::data_validation($j_skill, 'j_skill', 'select', '3', '25');
         Functions::data_validation($j_nationality, 'j_nationality', 'text', '3', '25');
         Functions::data_validation($j_age, 'j_age', 'number', '2', '3');

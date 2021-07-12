@@ -5,8 +5,15 @@
         public static $ok_alert = "ok";
         public $empty_err_msg = "";
 
-        public static function image_validation($data, $p_location, $size, $tmp_name){
-            $target_dir = "images/";
+        public static function image_validation($data, $p_location, $size, $tmp_name, $img_for){
+            if ($img_for == "employe") {
+                $target_dir = "employe_img/";
+            }
+            
+            if ($img_for == "job_seeker") {
+                $target_dir = "job_seeker_img/";
+            }
+
             $target_file = $target_dir . basename($data);
             $ok = "ok";
             $file_type = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -51,10 +58,6 @@
                     $ok = "not ok";
                     self::$ok_alert = "not ok";
                 }
-            }
-
-            if ($ok == "ok") {
-                move_uploaded_file($tmp_name, $target_file);
             }
         }
 
