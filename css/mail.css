@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+::placeholder{
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+}
+
+.mail{
+    max-width: 1920px;
+    margin: auto;
+}
+
+.mail-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.mail-header{
+    text-align: left;
+    padding: 30px 0px;
+}
+
+.mail-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.mail-left{
+    flex-basis: 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.mail-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.mail-right{
+    flex-basis: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-right-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+.mail-right-content-left{
+    flex-basis: 600px;
+    text-decoration: none;
+    color: black;
+}
+
+.mail-right-content-right{
+    flex-basis: 200px;
+    text-align: right;
+}
+
+.chat-details{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    row-gap: 20px;
+}
+
+.chat-details-left{
+    text-align: left;
+    padding: 15px;
+    border-radius: 20px 20px 20px 0px;
+    background-color: gainsboro;
+    margin: 20px 0px;
+}
+
+.chat-details-right{
+    text-align: right;
+    padding: 15px;
+    border-radius: 20px 20px 0px 20px;
+    background-color: beige;
+    margin: 20px 0px;
+}
+
+.chat-details-footer{
+    display: flex;
+    column-gap: 20px;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.text-field{
+    flex-basis: 100%;
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 15px 20px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 50px;
+    font-size: 17px;
+    font-family: "Noto Sans JP", sans-serif;
+}

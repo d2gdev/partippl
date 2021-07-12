@@ -1,0 +1,89 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+::placeholder{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 80px 0px;
+}
+
+.menu a{
+    flex-basis: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.job-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0px;
+    border-bottom: 1px solid black;
+}
+
+.job-content-block{
+    flex-basis: 25%;
+}
+
+.single-job{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.single-job-block{
+    display: flex;
+    column-gap: 80px;
+}
+
+.single-job-block b{
+    width: 300px;
+    display: block;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.copy_right{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.text-field{
+    padding: 12px 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    border: 1px solid black;
+}

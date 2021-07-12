@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+::placeholder{
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+}
+
+.new-job{
+    max-width: 1920px;
+    margin: auto;
+    background-color: azure;
+}
+
+.new-job-container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+}
+
+.new-job-header{
+    text-align: center;
+}
+
+.new-job-content{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.job-block{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+#job-block .text-field{
+    flex-basis: 30%;
+}
+
+.text-field{
+    width: 100%;
+    padding: 10px 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    border: 1px solid gray;
+    font-size: 16px;
+    color: black;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}

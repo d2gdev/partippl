@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+::placeholder{
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+}
+
+.edit-profile{
+    max-width: 1920px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.edit-profile-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-profile-left{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile-left-img{
+    height: 300px;
+}
+
+.edit-profile-left-text{
+    padding: 15px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.btn{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.edit-profile-right{
+    flex-basis: 750px;
+}
+
+.edit-profile-right-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 100%;
+}
+
+.edit-profile-right-text-block-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-profile-right-text-block-header-block{
+    flex-basis: 50%;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.edit-profile-right-text-block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 50px;
+}
+
+.job-post-header{
+    display: flex;
+    align-items: center;
+}
+
+.job-post-header .job-post-block{
+    flex-basis: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.job-post-content{
+    display: flex;
+    align-items: center;
+}
+
+.job-post-content .job-post-block{
+    flex-basis: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.new-job-content{
+    max-width: 1200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.job-block{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+#job-block .text-field{
+    flex-basis: 30%;
+}
+
+.text-field{
+    width: 100%;
+    padding: 10px 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    border: 1px solid gray;
+    font-size: 16px;
+    color: black;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
