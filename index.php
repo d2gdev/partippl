@@ -363,9 +363,10 @@
                         <h1>START GETTING APPLICATIONS</h1>
 
                         <section>
-                            Examine she brother prudent add day ham. Far stairs
-                            now coming bed oppose hunted become his. You
-                            zealously departure had procuring suspicion.
+                            Once you have posted a job you can manage your applications directly
+                            from your dashboard, you can keep track of the application status, and
+                            remember who you hired. Remember to make sure to ask all the right questions,
+                            and be as straightforward and clear as possible when you are interviewing.
                         </section>
 
                         <div class="hire-number">02</div>
@@ -403,9 +404,9 @@
                         <h1>HIRE STAFF</h1>
 
                         <section>
-                            Shot what able cold new the see hold. Friendly as an
-                            betrayed formerly he. Morning because as to society
-                            behaved moments. Put ladies design Mrs. sister was.
+                            Once you have completed the previous two stages its time
+                            to hire. Make sure to have a great time, and to review your PartiPpl
+                            after the job is completed.
                         </section>
 
                         <div class="hire-number">03</div>
@@ -414,7 +415,7 @@
                     <div class="hire-right">
                         <div class="hire-right-img">
                             <lottie-player id="thirdLottie"
-                            src="https://assets1.lottiefiles.com/packages/lf20_6aYlBl.json"
+                            src="https://assets5.lottiefiles.com/packages/lf20_c25lab9e.json"
                             background="thirdLottie"
                             speed="1"
                             style="width:350px; height: 350px;"
@@ -447,7 +448,7 @@
         <div class="faq-container">
             <div class="faq-header">
                 <div class="faq-header-left">
-                    <h1>Frequently Asked <br> Questions</h1>
+                    <h1>Frequently Asked Questions</h1>
                 </div>
 
                 <div class="faq-header-right">
