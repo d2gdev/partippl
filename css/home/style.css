@@ -3,10 +3,11 @@
 }
 
 body{
-    padding: 0px;
-    margin: 0px;
     font-family: 'Quicksand', sans-serif;
-    background-color: #190157;
+    background-color: transparent;
+    background-image: url("img/block1-01.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 h1{
@@ -16,7 +17,10 @@ h1{
 .hero{
     max-width: 1920px;
     margin: auto;
-    background-color: #190157;
+    background-color: transparent;
+    background-image: url("img/block1-01.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
     padding-bottom: 80px;
 }
 
@@ -32,7 +36,7 @@ h1{
     flex-basis: 625px;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: 222222;
     padding-top: 10px;
     height: 720px;
     justify-content: space-between;
@@ -67,11 +71,11 @@ h1{
 }
 
 .hero-left-header-right a:hover{
-    color: white;
+    color: #222222;
 }
 
 #active{
-    color: white;
+    color: #e8e8e8;
 }
 
 .hero-left-content{
@@ -91,7 +95,7 @@ h1{
     line-height: 30px;
     word-spacing: 3px;
     margin: 40px 0px;
-    color: gainsboro;
+    color: #222222;
 
 }
 
@@ -103,7 +107,7 @@ h1{
     height: 35px;
     line-height: 35px;
     text-align: center;
-    display: block; 
+    display: block;
     margin-top: 20px;
     font-weight: 600;
     border-radius: 20px;
@@ -161,7 +165,7 @@ h1{
 
 .hero-left-footer-left section{
     font-size: 13px;
-    color: gainsboro;
+    color: #222222;
 }
 
 .hero-left-footer-right{
@@ -271,7 +275,7 @@ h1{
     writing-mode: vertical-lr;
     font-size: 20px;
     font-weight: bold;
-    transform: rotate(180deg);    
+    transform: rotate(180deg);
 }
 
 .hero-right-icon-block{
@@ -314,7 +318,7 @@ h1{
 .parti{
     max-width: 1920px;
     margin: auto;
-    background-color: #190157;
+    background-color: transparent;
     padding: 70px 0px;
 }
 
@@ -355,7 +359,7 @@ h1{
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    align-items: center; 
+    align-items: center;
     margin-top: 20px;
     font-weight: 600;
     border-radius: 20px;
@@ -387,7 +391,7 @@ h1{
 .staff{
     max-width: 1920px;
     margin: auto;
-    background-color: #190157;
+    background-color: transparent;
     padding: 80px 0px;
 }
 
@@ -451,7 +455,7 @@ h1{
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    align-items: center; 
+    align-items: center;
     margin-top: 20px;
     font-weight: 600;
     border-radius: 20px;
@@ -554,7 +558,7 @@ h1{
     padding: 80px 0px;
     max-width: 1920px;
     margin: auto;
-    background-color: #190157;
+    background-color: transparent;
 }
 
 .staff-2-container{
@@ -623,7 +627,7 @@ h1{
 .hire{
     max-width: 1920px;
     margin: auto;
-    background-color: #190157;
+    background-color: transparent;
     padding: 80px 0px;
 }
 
@@ -682,7 +686,7 @@ h1{
 }
 
 .hire-left section{
-    font-size: 17px;    
+    font-size: 17px;
     word-spacing: 4px;
     line-height: 25px;
     color: gainsboro;
@@ -730,7 +734,7 @@ h1{
 .faq{
     max-width: 1920px;
     margin: auto;
-    background-color: #190157;
+    background-color: transparent;
     padding: 80px 0px;
 }
 
@@ -842,7 +846,7 @@ h1{
     max-width: 1920px;
     margin: auto;
     padding: 80px 0px;
-    background-color: #190157;
+    background-color: transparent;
 }
 
 .find-container{
@@ -860,7 +864,7 @@ h1{
 }
 
 .find-left-block{
-    background-color: #190157;
+    background-color: transparent;
     position: absolute;
     width: 650px;
     border: 3px solid #EF3AF9;
@@ -899,7 +903,7 @@ h1{
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    align-items: center; 
+    align-items: center;
     font-weight: 600;
     border-radius: 20px;
     background-image: radial-gradient(closest-side at 50% 50%, #EF3AF9, #993AEA);
@@ -915,7 +919,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #190157;
+    background-color: transparent;
 }
 
 .border-image img{
@@ -927,7 +931,7 @@ h1{
     max-width: 1920px;
     margin: auto;
     padding: 50px 0px;
-    background-color: #190157;
+    background-color: transparent;
     border-bottom: 2px solid #8F83AD;
 }
 
@@ -1026,7 +1030,7 @@ h1{
     max-width: 1920px;
     margin: auto;
     padding: 50px 0px;
-    background-color: #190157;
+    background-color: transparent;
 }
 
 .footer-last-container{
@@ -1111,7 +1115,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -1193,7 +1197,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -1256,7 +1260,7 @@ h1{
         right: 0px;
         left: unset;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -1296,7 +1300,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -1329,7 +1333,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -1338,9 +1342,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -1396,7 +1400,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -1405,7 +1409,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -1462,7 +1466,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 20px;   
+        column-gap: 20px;
     }
 
     .footer-last-right{
@@ -1526,7 +1530,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -1608,7 +1612,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -1710,7 +1714,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -1743,7 +1747,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -1752,9 +1756,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -1810,7 +1814,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -1819,7 +1823,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -1876,7 +1880,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 20px;   
+        column-gap: 20px;
     }
 
     .footer-last-right{
@@ -1940,7 +1944,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -2022,7 +2026,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -2081,7 +2085,7 @@ h1{
         right: 0px;
         left: unset;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -2121,7 +2125,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -2154,7 +2158,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -2163,9 +2167,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -2221,7 +2225,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -2230,7 +2234,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -2287,7 +2291,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 20px;   
+        column-gap: 20px;
     }
 
     .footer-last-right{
@@ -2351,7 +2355,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -2433,7 +2437,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -2495,7 +2499,7 @@ h1{
         right: 0px;
         left: unset;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -2535,7 +2539,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -2565,7 +2569,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -2574,9 +2578,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -2632,7 +2636,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -2641,7 +2645,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -2698,7 +2702,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 20px;   
+        column-gap: 20px;
     }
 
     .footer-last-right{
@@ -2762,7 +2766,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -2844,7 +2848,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -2945,7 +2949,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -2975,7 +2979,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -2984,9 +2988,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -3042,16 +3046,16 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
         padding: 30px 20px;
-        top: unset;
-        left: unset;
-        transform: unset;
+        top: auto;
+        left: auto;
+        transform: auto;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -3108,7 +3112,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 20px;   
+        column-gap: 20px;
     }
 
     .footer-last-right{
@@ -3172,7 +3176,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -3254,7 +3258,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -3355,7 +3359,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -3385,7 +3389,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -3394,9 +3398,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -3452,7 +3456,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -3461,7 +3465,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -3518,7 +3522,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 20px;   
+        column-gap: 20px;
     }
 
     .footer-last-right{
@@ -3580,7 +3584,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -3662,7 +3666,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -3739,7 +3743,7 @@ h1{
         height: 30px;
         line-height: 30px;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -3779,7 +3783,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -3809,7 +3813,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -3818,9 +3822,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -3876,7 +3880,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -3885,7 +3889,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -3942,7 +3946,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px;   
+        column-gap: 10px;
         flex-direction: column;
         row-gap: 20px;
         justify-content: flex-start;
@@ -4008,7 +4012,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -4090,7 +4094,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -4207,7 +4211,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -4237,7 +4241,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -4246,9 +4250,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -4304,7 +4308,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -4313,7 +4317,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -4370,7 +4374,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px;   
+        column-gap: 10px;
         flex-direction: column;
         row-gap: 20px;
         justify-content: flex-start;
@@ -4436,7 +4440,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -4518,7 +4522,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -4595,7 +4599,7 @@ h1{
         height: 30px;
         line-height: 30px;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -4635,7 +4639,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -4665,7 +4669,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -4674,9 +4678,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -4732,7 +4736,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -4741,7 +4745,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -4798,7 +4802,7 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px;   
+        column-gap: 10px;
         flex-direction: column;
         row-gap: 20px;
         justify-content: flex-start;
@@ -4864,7 +4868,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -4946,7 +4950,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -5023,7 +5027,7 @@ h1{
         height: 30px;
         line-height: 30px;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -5063,7 +5067,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -5093,7 +5097,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -5102,9 +5106,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -5160,7 +5164,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -5169,7 +5173,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -5226,9 +5230,9 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px; 
+        column-gap: 10px;
         flex-direction: column;
-        row-gap: 20px;  
+        row-gap: 20px;
     }
 
     .footer-last-right{
@@ -5290,7 +5294,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -5372,7 +5376,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -5449,7 +5453,7 @@ h1{
         height: 30px;
         line-height: 30px;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -5489,7 +5493,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -5519,7 +5523,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -5528,9 +5532,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -5586,7 +5590,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -5595,7 +5599,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -5652,9 +5656,9 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px; 
+        column-gap: 10px;
         flex-direction: column;
-        row-gap: 20px;  
+        row-gap: 20px;
     }
 
     .footer-last-right{
@@ -5716,7 +5720,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -5798,7 +5802,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -5915,7 +5919,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 30px;
     }
@@ -5945,7 +5949,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -5954,9 +5958,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -6012,7 +6016,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -6021,7 +6025,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 30px;
         padding-bottom: 20px;
@@ -6089,9 +6093,9 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px; 
+        column-gap: 10px;
         flex-direction: column;
-        row-gap: 20px;  
+        row-gap: 20px;
     }
 
     .footer-last-left a{
@@ -6161,7 +6165,7 @@ h1{
         word-spacing: 3px;
         margin: 40px 0px;
         color: gainsboro;
-    
+
     }
 
     .img-2, .img-3, .img-4, .img-5{
@@ -6243,7 +6247,7 @@ h1{
     .parti-right-footer-block{
         width: 100%;
         height: auto;
-    }    
+    }
 
     .staff-container{
         flex-wrap: wrap-reverse;
@@ -6324,7 +6328,7 @@ h1{
         height: 30px;
         line-height: 30px;
     }
-    
+
     .staff-right{
         flex-basis: 100%;
         height: auto;
@@ -6368,7 +6372,7 @@ h1{
         width: 40px;
         height: 40px;
     }
-    
+
     .staff-2-block-header h2{
         font-size: 20px;
     }
@@ -6398,7 +6402,7 @@ h1{
     .hire-block:nth-child(even) .hire-left{
         padding: unset;
     }
-    
+
     .hire-block:nth-child(even) .hire-right{
         padding: unset;
     }
@@ -6407,9 +6411,9 @@ h1{
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .hire-left section{
-        font-size: 16px;    
+        font-size: 16px;
         word-spacing: 4px;
         line-height: 25px;
         color: gainsboro;
@@ -6473,7 +6477,7 @@ h1{
     }
 
     .find-left-block{
-        background-color: #190157;
+        background-color: transparent;
         position: unset;
         width: 100%;
         border: 3px solid #EF3AF9;
@@ -6482,7 +6486,7 @@ h1{
         left: unset;
         transform: unset;
     }
-        
+
     .find-left-block h1{
         font-size: 20px;
         padding-bottom: 20px;
@@ -6550,9 +6554,9 @@ h1{
 
     .footer-last-left{
         flex-basis: 100%;
-        column-gap: 10px; 
+        column-gap: 10px;
         flex-direction: column;
-        row-gap: 20px;  
+        row-gap: 20px;
     }
 
     .footer-last-left a{
