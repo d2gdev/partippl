@@ -5,12 +5,12 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PartiPpl - Retrieve Password</title>
+    <title>Party Forget Password</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
         <?php if(Session::show_value("forget_message") != ""){?>
             <span><?php echo Session::show_value("forget_message"); ?></span>
         <?php }?>
-
+        
         <input type="email" name="u_email" class="text-field" id="" placeholder="Email">
 
             <?php if(Session::show_value("u_email") != ""){?>
@@ -36,7 +36,7 @@
 </body>
 </html>
 
-<?php
+<?php 
     Session::remove_value("u_email");
     Session::remove_value("forget_message");
 ?>

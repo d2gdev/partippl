@@ -3,7 +3,7 @@
     Session::session_start();
 
     error_reporting(0);
-
+    
     if (Session::show_value("u_name") == NULL || Session::show_value("u_name") == "") {
         header("Location: login.php");
     }
@@ -34,7 +34,7 @@
     <div class="header">
         <div class="header-container">
             <div class="header-left">
-                <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                <div class="logo">Logo Here</div>
             </div>
 
             <div class="header-right">
@@ -53,11 +53,11 @@
         </div>
     </div>
 
-
+    
     <?php if (Session::show_value("user_type") == "employe") {?>
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Job Seekers</a>
+                <a href="browse_job_seeker.php">Browse Job Seekers</a>
                 <a href="new_job.php">Post a New Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
@@ -69,8 +69,8 @@
     <?php if (Session::show_value("user_type") == "job_seeker") {?>
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Employers</a>
-                <a href="new_job.php">Browse All Jobs</a>
+                <a href="browse_job_seeker.php">Browse Employe</a>
+                <a href="new_job.php">Browse All Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
                 <a href="mail.php">Mailbox <sup>(02)</sup></a>
@@ -91,13 +91,13 @@
                 <?php } ?>
 
                 <input type="password" name="old_pass" placeholder="Old Password" id="" class="text-field">
-
+                
                 <?php if(Session::show_value("old_pass") != ""){ ?>
                     <p><?php echo Session::show_value("old_pass"); ?></p>
                 <?php } ?>
 
                 <input type="password" name="new_pass" placeholder="New Password" id="" class="text-field">
-
+                
                 <?php if(Session::show_value("new_pass") != ""){ ?>
                     <p><?php echo Session::show_value("new_pass"); ?></p>
                 <?php } ?>

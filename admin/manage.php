@@ -1,13 +1,13 @@
 <?php
     include_once 'lib/Main_Query.php';
-
+    
     $mn = new Main_Query();
 
     $data = $mn->display_all_job();
 ?>
 
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +21,9 @@
 <body>
     <div class="menu">
         <a href="manage.php">Manage Job</a>
-        <a href="manage_copy_right.php">Manage Copyright</a>
+        <a href="manage_copy_right.php">Manage Copy Right</a>
     </div>
-
+    
     <div class="job-content">
         <div class="job-content-block">Job Name</div>
         <div class="job-content-block">Apply Last Date</div>
@@ -41,9 +41,10 @@
             </div>
         <?php } ?>
     <?php }else{ ?>
-        <h2 style="text-align: center">No Jobs Available Approval</h2>
+        <h2 style="text-align: center">No Job Available For Approved</h2>
     <?php } ?>
     <br><br>
 
 </body>
 </html>
+

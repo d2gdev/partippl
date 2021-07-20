@@ -44,7 +44,8 @@
     if (isset($_POST["job_seeker"])) {
         $j_name = $_POST['j_name'];
         $j_title = $_POST['j_title'];
-        $j_interest = $_POST['j_interest'];
+        $j_interest2 = $_POST['j_interest'];
+        $j_interest = implode(" ", $j_interest2);
         $j_location = $_POST['j_location'];
         $j_img = $_FILES["j_image"]["name"];
         $j_img_size =  $_FILES["j_image"]["size"];

@@ -16,7 +16,7 @@
 
 <?php if (Session::show_value("user_type") == "employe") { ?>
     <!DOCTYPE html>
-    <html lang="en-ca">
+    <html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -36,7 +36,7 @@
         <div class="header">
             <div class="header-container">
                 <div class="header-left">
-                    <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                    <div class="logo">Logo Here</div>
                 </div>
 
                 <div class="header-right">
@@ -57,7 +57,7 @@
 
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Job Seekers</a>
+                <a href="browse_job_seeker.php">Browse Job Seekers</a>
                 <a href="new_job.php">Post a New Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
@@ -69,7 +69,7 @@
             $j_id = $_GET['j_id'];
             $s_que->select_update_job($j_id);
             $s_que->check_employe_profile();
-
+            
             $data = $s_que->select_job_details($j_id)->fetch_assoc();
         ?>
 
@@ -106,7 +106,7 @@
                                 <option value="Naga">Naga</option>
                                 <option value="San Fernando">San Fernando</option>
                                 <option value="Talisay">Talisay</option>
-                                <option value="Toledo">Toledo</option>
+                                <option value="Toldedo">Toldedo</option>
                             </select>
                         </div>
 
@@ -175,7 +175,7 @@
             </div>
         <?php }else { ?>
             <div style="text-align: center">
-                <h2 style="text-align: center">Setup your profile to use this feature.</h2>
+                <h2 style="text-align: center">First You need to set up your Profile</h2>
                 <a href="set_up_profile.php" style="text-align: center" class="btn">Click Here</a>
             </div>
         <?php } ?>
@@ -196,3 +196,5 @@
         Session::remove_value("j_description");
     ?>
 <?php } ?>
+
+

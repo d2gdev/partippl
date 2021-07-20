@@ -13,7 +13,7 @@
 
 
     <!DOCTYPE html>
-    <html lang="en-ca">
+    <html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -32,7 +32,7 @@
         <div class="header">
             <div class="header-container">
                 <div class="header-left">
-                    <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                    <div class="logo">Logo Here</div>
                 </div>
 
                 <div class="header-right">
@@ -53,15 +53,15 @@
 
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Employers</a>
-                <a href="new_job.php">Browse All Jobs</a>
+                <a href="browse_job_seeker.php">Browse Employee</a>
+                <a href="new_job.php">Browse All Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
                 <a href="mail.php">Mailbox <sup>(02)</sup></a>
             </div>
         </div>
 
-        <?php
+        <?php 
             $mn = new Main_Query();
             $u_id = $_GET['u_id'];
 
@@ -72,7 +72,7 @@
             <div class="job-seeker-details-container">
                 <div class="job-seeker-left">
                     <div class="job-seeker-left-img">
-                        <img src="job_seeker_img/<?php echo $data['j_img'] ?>" width="100%" height="100%" alt="">
+                        <img src="images/<?php echo $data['j_img'] ?>" width="100%" height="100%" alt="">
                     </div>
 
                     <div class="job-seeker-left-text">
@@ -93,12 +93,12 @@
                         </div>
 
                         <div class="job-seeker-right-text-footer">
-                            Sarah is Looking Work As: <b><?php echo $data['j_interest'] ?></b>
+                            Sarah Looking Work As: <b><?php echo $data['j_interest'] ?></b>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    
     </body>
     </html>

@@ -179,6 +179,14 @@
                 }
             }
 
+            if ($type == "select") {
+                if (strlen($data) <= 0) {
+                    $empty_err_msg = "<b>Error!</b> This Field should not be Empty";
+                    Session::set_value($name, $empty_err_msg);
+                    self::$ok_alert = "not ok";
+                }
+            }
+
             self::filter_data($data);
             self::other_validation($data, $name, $type);
         }

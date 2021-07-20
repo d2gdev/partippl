@@ -14,7 +14,7 @@
 
 <?php if (Session::show_value("user_type") == "employe") { ?>
     <!DOCTYPE html>
-    <html lang="en-ca">
+    <html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <div class="header">
             <div class="header-container">
                 <div class="header-left">
-                    <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                    <div class="logo"><a href="dashboard.php">Logo Here</a></div>
                 </div>
 
                 <div class="header-right">
@@ -54,7 +54,7 @@
 
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Job Seekers</a>
+                <a href="browse_job_seeker.php">Browse Job Seekers</a>
                 <a href="new_job.php">Post a New Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
@@ -68,7 +68,7 @@
 
         <?php if (Session::show_value("employe_check") == "ok") { ?>
             <?php  $data = $s_que->display_employee_data()->fetch_assoc(); ?>
-
+            
             <div class="edit-profile">
                 <div class="edit-profile-container">
                     <div class="edit-profile-left">
@@ -92,10 +92,10 @@
                                 <div class="edit-profile-right-text-block-header-block" onclick="show_tab('details')" id="details2"><?php echo $data['e_name'] ?> Details</div>
                                 <div class="edit-profile-right-text-block-header-block" onclick="show_tab('job_post')"><?php echo $data['e_name'] ?> Job Postings</div>
                             </div>
-
+                            
                             <div class="edit-profile-right-text-block" id="details">
                                 <h1><?php echo $data['e_title'] ?></h1>
-
+                            
                                 <h2>About <?php echo $data['e_name'] ?></h2>
 
                                 <p>
@@ -103,7 +103,7 @@
                                 </p>
 
                                 <h3>Employer Type: <?php echo $data['e_type'] ?></h3>
-
+                                    
                                 <a href="set_up_profile.php" class="btn">Edit Profile</a>
 
                                 <br><br><br>
@@ -144,7 +144,7 @@
 
                                     <?php } ?>
                                 <?php }else{ ?>
-                                    <h4>Post new job or Wait for Approval.</h4>
+                                    <h4>Post new job or Wait for Approved</h4>
                                 <?php } ?>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
             </div>
         <?php }else { ?>
             <div style="text-align: center">
-                <h2 style="text-align: center">You need to setup your profile before you can use that feature.</h2>
+                <h2 style="text-align: center">First You need to set up your Profile</h2>
                 <a href="set_up_profile.php" style="text-align: center" class="btn">Click Here</a>
             </div>
         <?php } ?>
@@ -184,7 +184,7 @@
         <div class="header">
             <div class="header-container">
                 <div class="header-left">
-                    <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                    <div class="logo">Logo Here</div>
                 </div>
 
                 <div class="header-right">
@@ -205,15 +205,15 @@
 
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Employers</a>
-                <a href="new_job.php">Browse All Jobs</a>
+                <a href="browse_job_seeker.php">Browse Employe</a>
+                <a href="new_job.php">Browse All Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
                 <a href="mail.php">Mailbox <sup>(02)</sup></a>
             </div>
         </div>
 
-        <?php
+        <?php 
             $s_que->check_job_seeker_profile();
         ?>
 
@@ -292,7 +292,7 @@
             <?php } ?>
         <?php }else{ ?>
             <div style="text-align: center">
-                <h2 style="text-align: center">You need to setup your profile before you can use that feature.</h2>
+                <h2 style="text-align: center">First You need to set up your Profile</h2>
                 <a href="set_up_profile.php" style="text-align: center" class="btn">Set Up Profile</a>
             </div>
         <?php } ?>

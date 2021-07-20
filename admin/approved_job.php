@@ -8,7 +8,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,9 @@
 <body>
     <div class="menu">
         <a href="manage.php">Manage Job</a>
-        <a href="manage_copy_right.php">Manage Copyright</a>
+        <a href="manage_copy_right.php">Manage Copy Right</a>
     </div>
-
+    
     <div class="single-job">
         <div class="signle-job-block"><b>Name:</b> <?php echo $data['j_title'] ?></div>
         <div class="signle-job-block"><b>Booking Location:</b> <?php echo $data['j_booking_location'] ?></div>
@@ -35,7 +35,7 @@
         <div class="signle-job-block"><b>Job Description:</b> <?php echo $data['j_description'] ?></div>
         <div class="signle-job-block"><b>Posted By:</b> <?php echo $data['j_post_by'] ?></div>
         <div class="signle-job-block"><b>Posted on:</b> <?php echo $data['j_date'] ?></div>
-
+        
         <form method="post" action="" class="single-job-block">
             <input type="submit" value="Approved Job" class="btn">
         </form>
@@ -51,3 +51,4 @@
 
 </body>
 </html>
+

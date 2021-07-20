@@ -133,7 +133,6 @@
             }
         }
 
-        /*
         //check email
         public function check_email($u_email){
             $sql = "SELECT email FROM tbl_sign WHERE email = '$u_email' ";
@@ -154,8 +153,10 @@
             $result = $this->db->update($sql);
             
             Session::set_value("u_name", $u_email);
-            header("Location: index.php");
+            header("Location: home.php");
         }
+
+        /*
 
         //check profile
         public function check_profile(){

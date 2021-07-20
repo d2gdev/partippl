@@ -21,7 +21,7 @@
 
 <body>
     <form action="verify_code.php" method="post" class="main-block">
-        <h1>Sign Up for PartiPpl!</h1>
+        <h1>Sign Up</h1>
             <?php if(Session::show_value("mail_message") != ""){?>
                 <span><?php echo Session::show_value("mail_message"); ?></span>
             <?php }?>
@@ -35,14 +35,14 @@
         <input type="submit" value="Verify Now" class="btn">
 
         <div class="login-block">
-            <a href="login.php">Already A Member?</a>
+            <a href="login.php">Already Sign Up?</a>
         </div>
     </form>
 </body>
 
 </html>
 
-<?php
+<?php 
     Session::remove_value("mail_message");
     Session::remove_value("u_number");
 ?>

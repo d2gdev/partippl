@@ -41,7 +41,7 @@
             <div class="header">
                 <div class="header-container">
                     <div class="header-left">
-                        <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                        <div class="logo"><a href="dashboard.php">Logo Here</a></div>
                     </div>
 
                     <div class="header-right">
@@ -62,7 +62,7 @@
 
             <div class="menu">
                 <div class="menu-container">
-                    <a href="browse_job_seeker.php">Browse All Job Seekers</a>
+                    <a href="browse_job_seeker.php">Browse Job Seekers</a>
                     <a href="new_job.php">Post a New Job</a>
                     <a href="change_password.php">Reset Password</a>
                     <a href="edit_profile.php">Edit My Profile</a>
@@ -75,7 +75,7 @@
             ?>
 
             <?php if(Session::show_value("employe_check") == "ok"){ ?>
-                <?php
+                <?php    
                     $data = $s_que->select_all_job_seeker();
                     if ($data != false) {
                 ?>
@@ -97,13 +97,13 @@
                             <?php } ?>
                         </div>
                     </div>
-
+                            
                     <a href="#" class="load-btn">Load More</a>
                 <?php }else{ ?>
-                    <h2 style="text-align: center">No jobseekers are available at the moment.</h2>
+                    <h2 style="text-align: center">No Job Seeker Available Now</h2>
                 <?php } ?>
             <?php }else{ ?>
-                <h2 style="text-align: center">You need to setup your profile before you can use that feature.</h2>
+                <h2 style="text-align: center">First you need to Set Up your Profile</h2>
             <?php } ?>
         <?php } ?>
 
@@ -111,7 +111,7 @@
             <div class="header">
                 <div class="header-container">
                     <div class="header-left">
-                        <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo"></a></div>
+                        <div class="logo"><a href="dashboard.php">Logo Here</a></div>
                     </div>
 
                     <div class="header-right">
@@ -132,8 +132,8 @@
 
             <div class="menu">
                 <div class="menu-container">
-                    <a href="browse_job_seeker.php">Browse All Employers</a>
-                    <a href="new_job.php">Browse All Jobs</a>
+                    <a href="browse_job_seeker.php">Browse Employe</a>
+                    <a href="new_job.php">Browse All Job</a>
                     <a href="change_password.php">Reset Password</a>
                     <a href="edit_profile.php">Edit My Profile</a>
                     <a href="mail.php">Mailbox <sup>(02)</sup></a>
@@ -145,7 +145,7 @@
             ?>
 
             <?php if(Session::show_value("job_seeker_check") == "ok"){ ?>
-                <?php
+                <?php     
                     $data = $s_que->display_all_employee();
                     if ($data != false) {
                 ?>
@@ -169,11 +169,11 @@
                     </div>
 
                     <a href="#" class="load-btn">Load More</a>
-                <?php }else{ ?>
-                    <h2 style="text-align: center">No employers are currently available.</h2>
+                <?php }else{ ?>        
+                    <h2 style="text-align: center">No Employe Available Now</h2>
                 <?php } ?>
             <?php }else{ ?>
-                <h2 style="text-align: center">You need to setup your profile before you can use that feature.</h2>
+                <h2 style="text-align: center">First You need to set up your Profile</h2>
             <?php } ?>
         <?php } ?>
     </body>

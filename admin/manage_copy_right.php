@@ -1,11 +1,11 @@
 <?php
     include_once 'lib/Main_Query.php';
-
+    
     $mn = new Main_Query();
 ?>
 
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +19,11 @@
 <body>
     <div class="menu">
         <a href="manage.php">Manage Job</a>
-        <a href="manage_copy_right.php">Manage Page Copyright</a>
+        <a href="manage_copy_right.php">Manage Copy Right</a>
     </div>
 
     <div class="content">
-        <h2>Welcome to the Admin Dashboard</h2>
+        <h2>Welcome to admin Dashboard</h2>
     </div>
 
     <?php
@@ -31,7 +31,7 @@
     ?>
 
     <form action="copy_rights_code.php" method="post" class="copy_right">
-        <input type="text" name="text_name" id="" value="<?php echo $data['copy_text_name'] ?>" placeholder="Copyright Text Here" class="text-field" required>
+        <input type="text" name="text_name" id="" value="<?php echo $data['copy_text_name'] ?>" placeholder="Copy Right Text Here" class="text-field" required>
         <input type="submit" value="Update Now" class="btn">
     </form>
 </body>

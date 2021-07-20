@@ -22,7 +22,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -41,7 +41,7 @@
     <div class="header">
         <div class="header-container">
             <div class="header-left">
-                <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo"></a></div>
+                <div class="logo">Logo Here</div>
             </div>
 
             <div class="header-right">
@@ -52,8 +52,8 @@
 
                     <div class="notice-content">
                         <span>New Message from MR K K</span>
-                        <span>A New Converstaion is Now Waiting</span>
-                        <span>An applicant wants to chat with You</span>
+                        <span>New Converstaion is Now Waiting</span>
+                        <span>Applicant want to chat with You</span>
                     </div>
                 </a>
             </div>
@@ -63,7 +63,7 @@
     <?php if (Session::show_value("user_type") == "employe") { ?>
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Job Seekers</a>
+                <a href="browse_job_seeker.php">Browse Job Seekers</a>
                 <a href="new_job.php">Post a New Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
@@ -75,8 +75,8 @@
     <?php if (Session::show_value("user_type") == "job_seeker") { ?>
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Employers</a>
-                <a href="new_job.php">Browse All Jobs</a>
+                <a href="browse_job_seeker.php">Browse Employe</a>
+                <a href="new_job.php">Browse All Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
                 <a href="mail.php">Mailbox <sup>(02)</sup></a>
@@ -92,7 +92,7 @@
     <?php if (Session::show_value("user_type") == "employe") { ?>
         <div class="chat-details">
             <?php
-
+                
                 $data = $s_que->select_chat_data_2($received_by);
                 $u_name = Session::show_value('u_name');
                 $active_status = $s_que->select_active_status($received_by)->fetch_assoc();
@@ -123,11 +123,11 @@
             <form method="POST" action="chat_details_code.php" class="chat-details-footer">
                 <input type="hidden" name="received_by" value="<?php echo $received_by; ?>">
                 <textarea class="text-field" id="" cols="30" rows="5" placeholder="Start Type Here" name="chat_message"></textarea>
-
+                
                 <?php if (Session::show_value("chat_message") != "") {?>
                     <span><?php echo Session::show_value("chat_message"); ?></span>
                 <?php }?>
-
+                
                 <input type="submit" value="Send" class="btn" name="outbox">
             </div>
         </div>
@@ -145,7 +145,7 @@
                 <div><b><?php echo $received_by; ?></b></div>
 
                 <?php if($active_status['active_status'] == "Active"){ ?>
-                    <div><?php echo $active_status['active_status'] ?> Online Now</div>
+                    <div><?php echo $active_status['active_status'] ?> Now</div>
                 <?php }else{ ?>
                     <div>Offline Now</div>
                 <?php } ?>
@@ -166,7 +166,7 @@
             <form method="POST" action="chat_details_code2.php" class="chat-details-footer">
                 <input type="hidden" name="sent_by" value="<?php echo $received_by; ?>">
                 <textarea class="text-field" id="" cols="30" rows="5" placeholder="Start Type Here" name="chat_message"></textarea>
-
+                
                 <?php if (Session::show_value("chat_message") != "") {?>
                     <span><?php echo Session::show_value("chat_message"); ?></span>
                 <?php }?>

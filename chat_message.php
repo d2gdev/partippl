@@ -3,7 +3,7 @@
     $s_que = new Select_Query();
 
     error_reporting(0);
-
+    
     if (Session::show_value("u_name") == NULL || Session::show_value("u_name") == "") {
         header("Location: login.php");
     }
@@ -34,7 +34,7 @@
         <div class="header">
             <div class="header-container">
                 <div class="header-left">
-                    <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                    <div class="logo">Logo Here</div>
                 </div>
 
                 <div class="header-right">
@@ -55,7 +55,7 @@
 
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Job Seekers</a>
+                <a href="browse_job_seeker.php">Browse Job Seekers</a>
                 <a href="new_job.php">Post a New Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
@@ -65,7 +65,7 @@
 
         <?php
             $msg_id = $_GET['message_id'];
-
+            
             $s_que->check_job_seeker_by_u_name($msg_id);
         ?>
 
@@ -84,7 +84,7 @@
 
 <?php if(Session::show_value("user_type") == "job_seeker"){ ?>
     <!DOCTYPE html>
-    <html lang="en-ca">
+    <html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -103,7 +103,7 @@
         <div class="header">
             <div class="header-container">
                 <div class="header-left">
-                    <div class="logo"><a href="dashboard.php"><img src="img/ppl-Logo.png"></a></div>
+                    <div class="logo">Logo Here</div>
                 </div>
 
                 <div class="header-right">
@@ -124,8 +124,8 @@
 
         <div class="menu">
             <div class="menu-container">
-                <a href="browse_job_seeker.php">Browse All Employers</a>
-                <a href="new_job.php">Browse All Jobs</a>
+                <a href="browse_job_seeker.php">Browse Employe</a>
+                <a href="new_job.php">Browse All Job</a>
                 <a href="change_password.php">Reset Password</a>
                 <a href="edit_profile.php">Edit My Profile</a>
                 <a href="mail.php">Mailbox <sup>(02)</sup></a>
@@ -140,7 +140,7 @@
         <form method="POST" action="chat_message_code.php" class="chat_message">
             <input type="hidden" name="received_by" value="<?php echo $msg_id; ?>">
             <textarea name="chat_message" id="" cols="30" rows="10" class="text-field" placeholder="Type Message Here"></textarea>
-
+            
             <?php if(Session::show_value('chat_message') != ""){ ?>
                 <?php echo Session::show_value('chat_message') ?>
             <?php } ?>
